@@ -77,6 +77,6 @@ export default compose
                 , toggleFollowingInProgress
                 , getUsers
             })
-        , withAuthRedirect
+        // , withAuthRedirect
     )
     (UsersContainerComponent);
