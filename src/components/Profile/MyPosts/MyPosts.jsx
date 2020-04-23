@@ -3,7 +3,7 @@ import s from './MyPosts.module.css';
 import Post from './Post/Post';
 import { reduxForm, Field } from 'redux-form';
 import { required, maxLengthCreator } from '../../../utils/validators/validators.js';
-import { Textarea } from '../../common/Preloader/FormsControls/FormsControls';
+import {Textarea} from '../../../components/common/FormsControls/FormsControls';
 
 const maxLength10 = maxLengthCreator(10);
 
