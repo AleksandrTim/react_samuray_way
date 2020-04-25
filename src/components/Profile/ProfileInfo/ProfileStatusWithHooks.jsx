@@ -1,6 +1,5 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import s from './ProfileInfo.module.css';
-import { useState } from 'react';
 import { setStatus } from '../../../redux/profile-reducer';
 
 // let arr = [0, () => {}];
@@ -14,6 +13,11 @@ const ProfileStatusWithHooks = (props) => {
 
     let [editMode, setEditMode] = useState(false);
     let [status, setStatus] = useState(props.status);
+
+    useEffect(() => {
+        debugger;
+        setStatus(props.status);
+    }, []);
 
     const activateEditMode = () => {
         setEditMode(true);
