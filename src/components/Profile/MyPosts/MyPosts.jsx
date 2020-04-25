@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { Component, PureComponent } from 'react';
 import s from './MyPosts.module.css';
 import Post from './Post/Post';
 import { reduxForm, Field } from 'redux-form';
 import { required, maxLengthCreator } from '../../../utils/validators/validators.js';
-import {Textarea} from '../../../components/common/FormsControls/FormsControls';
+import { Textarea } from '../../../components/common/FormsControls/FormsControls';
 
 const maxLength10 = maxLengthCreator(10);
 
@@ -27,8 +27,27 @@ let AddNewPostForm = (props) => {
 
 let AddNewPostFormRedux = reduxForm({ form: 'ProfileAddNewPostForm' })(AddNewPostForm);
 
-const MyPosts = (props) => {
+// window.props = [];
+
+const MyPosts = React.memo(props => {
+
+    // componentDidMount() {
+    //     setTimeout(() => {
+    //         this.setState({a: 12});
+    //     }, 3000)
+    // }
+
+    // shouldComponentUpdate(nextProps, nextState) {
+    //     return nextProps != this.props || nextState != this.state; 
+    // }
+
+    // window.props.push(this.props);
+    console.log("RENDER 1");
+    // console.log(this.props);
+
     let postsElements = props.posts.map(p => <Post message={p.message} likesCount={p.likesCount} />);
+
+    let newPostElement = React.createRef();
 
     let onAddPost = (values) => {
         props.addPost(values.newPostText);
@@ -43,6 +62,6 @@ const MyPosts = (props) => {
             </div>
         </div>
     )
-}
+});
 
 export default MyPosts;
