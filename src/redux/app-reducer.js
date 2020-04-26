@@ -26,7 +26,8 @@ export const initializeApp = () => (dispatch) => {
 
     Promise.all([promise])
         .then(() => {
-            dispatch(initializedSucces())
+            // debugger;
+            dispatch(initializedSucces());
         });
 }
 
