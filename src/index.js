@@ -3,14 +3,16 @@ import store from "./redux/redux-store";
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-
-
-setInterval(() => {
-    store.dispatch({type: "FAKE"})
-}, 1000);
+import App from './App';
+import { BrowserRouter } from "react-router-dom";
+import { Provider } from 'react-redux';
 
 ReactDOM.render(
-            <App />        
+    <BrowserRouter>
+        <Provider store={store}>
+            <App />
+        </Provider>
+    </BrowserRouter>
     , document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
