@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "da9413a38bc4c50a7955abd1f80971b7",
+    "revision": "d142746181b8cb9fd8b7c35188d6cde4",
     "url": "/react_samuray_way/index.html"
   },
   {
@@ -8,36 +8,36 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react_samuray_way/static/css/3.1d3e5bb2.chunk.css"
   },
   {
-    "revision": "a8d193b21288afb7a988",
+    "revision": "69ba277cf86a37983108",
     "url": "/react_samuray_way/static/css/4.e89480ce.chunk.css"
   },
   {
-    "revision": "05abf9fff9d166add9a0",
+    "revision": "8daa947b69f48fe1e346",
     "url": "/react_samuray_way/static/css/main.0ad8b15c.chunk.css"
   },
   {
-    "revision": "4218c7dbc39a0435d53c",
-    "url": "/react_samuray_way/static/js/2.37207aaa.chunk.js"
+    "revision": "c7e9518bf27b15064fa6",
+    "url": "/react_samuray_way/static/js/2.452505e9.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/react_samuray_way/static/js/2.37207aaa.chunk.js.LICENSE.txt"
+    "url": "/react_samuray_way/static/js/2.452505e9.chunk.js.LICENSE.txt"
   },
   {
     "revision": "d7636d716955762d59df",
     "url": "/react_samuray_way/static/js/3.5738245d.chunk.js"
   },
   {
-    "revision": "a8d193b21288afb7a988",
-    "url": "/react_samuray_way/static/js/4.d3c2b9f1.chunk.js"
+    "revision": "69ba277cf86a37983108",
+    "url": "/react_samuray_way/static/js/4.be545ca7.chunk.js"
   },
   {
-    "revision": "05abf9fff9d166add9a0",
-    "url": "/react_samuray_way/static/js/main.75e5a58e.chunk.js"
+    "revision": "8daa947b69f48fe1e346",
+    "url": "/react_samuray_way/static/js/main.eb4a283f.chunk.js"
   },
   {
-    "revision": "46bb042d2ba34ab4534c",
-    "url": "/react_samuray_way/static/js/runtime-main.bd8dcd32.js"
+    "revision": "3b48279324e0b91622d9",
+    "url": "/react_samuray_way/static/js/runtime-main.daa2e855.js"
   },
   {
     "revision": "6dd908bbbbf700b9e21bfc49956b8a6a",
