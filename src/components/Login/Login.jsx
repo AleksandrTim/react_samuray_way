@@ -21,7 +21,6 @@ const LoginForm = ({handleSubmit, error}) => {
             <div>
                 <button>Login</button>
             </div>
-            <div></div>
         </form>
     )
 }
